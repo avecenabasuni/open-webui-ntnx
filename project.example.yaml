@@ -1,0 +1,14 @@
+# Matches the Kommander Project shape in DEWA's k8s/00-namespace.yaml.
+# Verify these workspace/placement values against the management cluster.
+apiVersion: workspaces.kommander.mesosphere.io/v1alpha1
+kind: Project
+metadata:
+  name: open-webui
+  namespace: kommander
+spec:
+  workspaceRef:
+    name: kommander-workspace
+  namespaceName: open-webui
+  placement:
+    clusters:
+      - name: host-cluster
