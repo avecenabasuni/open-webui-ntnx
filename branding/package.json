@@ -1,0 +1,10 @@
+{
+  "name": "dewa-branding-assets",
+  "private": true,
+  "scripts": {
+    "render": "node render-assets.cjs"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "2.6.2"
+  }
+}

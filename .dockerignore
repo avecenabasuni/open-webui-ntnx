@@ -1,0 +1,9 @@
+**
+!branding/
+!branding/Dockerfile
+!branding/dewa_app.py
+!branding/start-dewa.sh
+!branding/assets/
+!branding/assets/**
+!branding/licenses/
+!branding/licenses/**

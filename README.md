@@ -4,6 +4,8 @@ Paket ini berdiri sendiri di namespace `open-webui`. Tidak diikutkan ke Kustomiz
 
 **Mulai di [panduan deploy dari awal sampai bisa diakses](docs/DEPLOY.md).** Panduan tersebut mencakup clone repo, file yang perlu diisi, konfigurasi Harbor/Kommander/StorageClass, menjalankan script, login, tes Alibaba dan dokumen, serta akses lewat Cloudflare Tunnel.
 
+**Instalasi yang sudah berjalan:** lihat [update branding DEWA tanpa mengganti PVC/Secret](docs/BRANDING.md). Jalur ini membuat image turunan dan backup data saat aplikasi dihentikan, lalu hanya mengganti image Deployment. Docker/container diuji pada bastion oleh operator.
+
 ```bash
 git clone https://github.com/avecenabasuni/open-webui-ntnx.git
 cd open-webui-ntnx

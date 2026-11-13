@@ -3,3 +3,8 @@
 *.key
 *.pem
 *.decrypted.yaml
+/backups/
+*.tar
+*.tar.gz
+__pycache__/
+node_modules/

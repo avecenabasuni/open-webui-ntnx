@@ -2,6 +2,8 @@
 
 Panduan ini mengikuti pola deployment DEWA yang ada di repo lama: mirror image ke Harbor, Kommander Project, Secret registry, PVC, lalu workload. Open WebUI memakai namespace dan data sendiri. Deploy dilakukan manual dari mesin yang mempunyai akses cluster.
 
+Jika aplikasi sudah terpasang dan ingin memakai nama/logo DEWA, gunakan [panduan update branding](BRANDING.md), bukan instalasi ulang di bawah.
+
 Semua perintah memakai Bash di Linux/WSL. Paket sudah diuji render dan simulasi lokal; belum diverifikasi pada cluster hidup.
 
 ## 1. Clone repo pada mesin deploy
